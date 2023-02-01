@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,14 @@
   },
   "homepage": "https://github.com/sarah7sami/101334588_COMP3133_Assignment1#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@playlyfe/gql": "^1.1.0",
+    "apollo-server": "^3.11.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.4.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0"
   }
 }
